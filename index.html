@@ -47,7 +47,7 @@
   <section id="top" class="mx-auto max-w-6xl px-4 pt-14 pb-10">
     <div class="grid lg:grid-cols-2 gap-10 items-center">
       <div>
-        <p class="text-sm text-zinc-400">Junior Web Developer • Web + Generative AI (Creative Focus)</p>
+        <p class="text-sm text-zinc-400">Junior Web Developer • Generative AI (Creative Focus)</p>
         <h1 class="mt-3 text-4xl md:text-5xl font-bold tracking-tight leading-tight">
           I build production web features — and explore generative AI through prompt refinement.
         </h1>
@@ -82,7 +82,7 @@
             <p class="mt-1 text-lg font-semibold">1 yr 5 mo</p>
           </div>
           <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
-            <p class="text-xs text-zinc-400">Focus</p>
+            <p class="text-xs text-zinc-400">Creative Focus</p>
             <p class="mt-1 text-lg font-semibold">Web + AI</p>
           </div>
           <div class="rounded-2xl border border-white/10 bg-white/5 p-4">
@@ -98,15 +98,17 @@
           class="aspect-[4/3] w-full overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 flex items-center justify-center">
           <img src="assets/ai/2.png" alt="Hero visual" class="h-full w-full object-cover" />
         </div>
+
+        <div class="mt-5 rounded-2xl border border-white/10 bg-white/5 p-4">
+          <p class="text-xs text-zinc-400">AI Note *</p>
+          <p class="mt-1 text-sm text-zinc-200 leading-relaxed">
+            My AI images are created through <span class="text-white font-semibold">prompt refinement</span>:
+            starting from provided prompts and iterating to improve composition, style alignment, and consistency.
+          </p>
+        </div>
       </div>
 
-      <div class="mt-5 rounded-2xl border border-white/10 bg-white/5 p-4">
-        <p class="text-xs text-zinc-400">AI Note</p>
-        <p class="mt-1 text-sm text-zinc-200 leading-relaxed">
-          My AI images are created through <span class="text-white font-semibold">prompt refinement</span>:
-          starting from provided prompts and iterating to improve composition, style alignment, and consistency.
-        </p>
-      </div>
+
     </div>
     </div>
   </section>
@@ -156,9 +158,6 @@
     <div class="flex items-end justify-between gap-4">
       <div>
         <h2 class="text-2xl font-bold tracking-tight">Projects</h2>
-        <p class="mt-2 text-zinc-400 text-sm">
-          NDA-safe descriptions. Screenshots will be added by you later.
-        </p>
       </div>
     </div>
 
@@ -169,9 +168,10 @@
           <h3 class="text-lg font-semibold">Education & Assessment Management System</h3>
           <span class="text-xs text-zinc-400">Greenfield</span>
         </div>
+
         <p class="mt-2 text-sm text-zinc-300">
-          Web-based education platform built from scratch to support student learning, online exams, and student-side
-          content display.
+          Web-based education platform built from scratch to support student learning, online exams,
+          and student-side content display.
         </p>
 
         <div class="mt-4 flex flex-wrap gap-2 text-xs text-zinc-300">
@@ -188,16 +188,38 @@
           <li>Role-based access control (permissions by role)</li>
         </ul>
 
-        <!-- Screenshot placeholder -->
-        <div
-          class="mt-6 aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-zinc-900 flex items-center justify-center">
-          <p class="text-xs text-zinc-400 text-center px-6">
-            Add screenshot later (recommended: 1–3 per project).<br />
-            Keep UI screenshots as the main proof of work.
-          </p>
+        <p class="mt-6 text-xs text-zinc-400">
+          Screenshots (anonymized and cropped for confidentiality)
+        </p>
+
+        <!-- Screenshots -->
+        <div class="mt-3 space-y-3">
+          <!-- Main screenshot -->
+          <div class="aspect-[16/9] w-full overflow-hidden rounded-2xl border border-white/10 bg-zinc-900">
+            <img src="assets/projects/exam-management.png" alt="Education system — exam management"
+              class="h-full w-full object-cover cursor-pointer hover:opacity-90 transition" loading="lazy"
+              onclick="openLightbox(this.src)" />
+          </div>
+
+          <!-- Supporting screenshots -->
+          <div class="grid grid-cols-2 gap-3">
+            <div class="aspect-[16/9] overflow-hidden rounded-xl border border-white/10 bg-zinc-900">
+              <img src="assets/projects/registration.png" alt="Education system — student management"
+                class="h-full w-full object-cover cursor-pointer hover:opacity-90 transition" loading="lazy"
+                onclick="openLightbox(this.src)" />
+            </div>
+
+            <div class="aspect-[16/9] overflow-hidden rounded-xl border border-white/10 bg-zinc-900">
+              <img src="assets/projects/user-management.png" alt="Education system — registration flow"
+                class="h-full w-full object-cover cursor-pointer hover:opacity-90 transition" loading="lazy"
+                onclick="openLightbox(this.src)" />
+            </div>
+          </div>
         </div>
 
-        <p class="mt-4 text-xs text-zinc-400">Company project • Source code is private</p>
+        <p class="mt-4 text-xs text-zinc-400">
+          Company project • Source code is private
+        </p>
       </article>
 
       <!-- Project 2 -->
@@ -440,14 +462,14 @@
 
       <div class="rounded-3xl border border-white/10 bg-white/5 p-6">
         <h3 class="font-semibold">E-commerce, Application Features & AI</h3>
-          <ul class="mt-4 space-y-2 text-sm text-zinc-300 list-disc pl-5">
-            <li>Shopify Liquid: theme sections, templates, UI edits</li>
-            <li>WooCommerce: hooks/filters, product and checkout behavior</li>
-            <li>Email: notifications and password reset flows (project work)</li>
-            <li>OCR: extraction support and validation handling (project work)</li>
-            <li>Generative AI: prompt interpretation and refinement through iteration (creative work)</li>
-          </ul>
-          </ul>
+        <ul class="mt-4 space-y-2 text-sm text-zinc-300 list-disc pl-5">
+          <li>Shopify Liquid: theme sections, templates, UI edits</li>
+          <li>WooCommerce: hooks/filters, product and checkout behavior</li>
+          <li>Email: notifications and password reset flows (project work)</li>
+          <li>OCR: extraction support and validation handling (project work)</li>
+          <li>Generative AI: prompt interpretation and refinement through iteration (creative work)</li>
+        </ul>
+        </ul>
       </div>
     </div>
   </section>
@@ -457,7 +479,7 @@
     <div class="rounded-3xl border border-white/10 bg-white/5 p-6 md:p-8">
       <h2 class="text-2xl font-bold tracking-tight">Contact</h2>
       <p class="mt-2 text-zinc-300 text-sm">
-        Interested in full-time opportunities in Web Development or Web + Generative AI environments.
+        Interested in full-time opportunities in Web Development or Generative AI environments.
       </p>
 
       <div class="mt-6 grid md:grid-cols-2 gap-6">
@@ -490,13 +512,45 @@
     </div>
   </footer>
 
+  <!-- Lightbox Modal -->
+  <div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 backdrop-blur-sm">
+    <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white text-3xl font-bold hover:opacity-80"
+      aria-label="Close">
+      &times;
+    </button>
+
+    <img id="lightboxImage" src="" alt="Expanded project screenshot"
+      class="max-h-[90vh] max-w-[90vw] rounded-2xl shadow-2xl border border-white/20" />
+  </div>
+
+
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Optional: if you set a hero image src, it will show automatically.
-    // Example:
-    // document.getElementById("heroImage").src = "assets/ai-hero.jpg";
-    // document.getElementById("heroImage").classList.remove("hidden");
+    function openLightbox(src) {
+      const lightbox = document.getElementById("lightbox");
+      const image = document.getElementById("lightboxImage");
+
+      image.src = src;
+      lightbox.classList.remove("hidden");
+      lightbox.classList.add("flex");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox() {
+      const lightbox = document.getElementById("lightbox");
+
+      lightbox.classList.add("hidden");
+      lightbox.classList.remove("flex");
+      document.body.style.overflow = "";
+    }
+
+    // Close when clicking outside the image
+    document.getElementById("lightbox").addEventListener("click", function (e) {
+      if (e.target === this) {
+        closeLightbox();
+      }
+    });
   </script>
 </body>
 
